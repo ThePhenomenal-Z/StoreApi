@@ -20,7 +20,7 @@ Route::get('/', function () {
 
 Route::get('/setup',function(){
     $credentials=[
-        'email'=>'admin2@admin.com',
+        'email'=>'admin5@admin.com',
         'password'=>'password'
     ];
     if(!Auth::attempt($credentials)){
